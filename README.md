@@ -1,0 +1,1 @@
+Codealong for React Native via https://www.youtube.com/watch?v=_ivIUCSOZ78&t=1035s&ab_channel=JavaScriptMastery
