@@ -4,13 +4,22 @@ import { useFonts } from 'expo-font'
 
 const Stack = createStackNavigator()
 
+const theme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: "transparent"
+  }
+}
+
 const App = () => {
   return (
-    <NavigationContainer>
-      <StackNavigator>
-        <Stack.Screen />
-        <Stack.Screen />
-      </StackNavigator>
+    <NavigationContainer theme={theme}>
+      <Stack.Navigator screenOptions={{ headerShown: false}} 
+      initialRouteName="Home">
+        <Stack.Screen name='Home' component={Home}/>
+        <Stack.Screen name='Details' component={Details}/>
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
