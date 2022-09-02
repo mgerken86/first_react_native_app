@@ -1,37 +1,29 @@
 {
-  "name": "react_native_app",
+  "name": "pronef",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "eject": "expo eject"
   },
   "dependencies": {
-    "@expo/webpack-config": "^0.17.0",
-    "@react-navigation/native": "^6.0.12",
-    "@react-navigation/stack": "^6.2.3",
-    "expo": "~46.0.9",
-    "expo-status-bar": "~1.4.0",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-native": "0.69.5",
-    "react-native-web": "~0.18.7"
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/stack": "^6.1.1",
+    "expo": "~44.0.0",
+    "expo-font": "^10.0.5",
+    "expo-updates": "^0.11.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-web": "0.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true,
-  "description": "Codealong for React Native via https://www.youtube.com/watch?v=_ivIUCSOZ78&t=1035s&ab_channel=JavaScriptMastery",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mgerken86/first_react_native_app.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mgerken86/first_react_native_app/issues"
-  },
-  "homepage": "https://github.com/mgerken86/first_react_native_app#readme"
+  "private": true
 }
