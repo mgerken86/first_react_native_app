@@ -9,16 +9,29 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^0.17.0",
+    "@react-navigation/native": "^6.0.12",
+    "@react-navigation/stack": "^6.2.3",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.5",
-    "react-native-web": "~0.18.7",
     "react-dom": "18.0.0",
-    "@expo/webpack-config": "^0.17.0"
+    "react-native": "0.69.5",
+    "react-native-web": "~0.18.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
   },
-  "private": true
+  "private": true,
+  "description": "Codealong for React Native via https://www.youtube.com/watch?v=_ivIUCSOZ78&t=1035s&ab_channel=JavaScriptMastery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgerken86/first_react_native_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgerken86/first_react_native_app/issues"
+  },
+  "homepage": "https://github.com/mgerken86/first_react_native_app#readme"
 }
